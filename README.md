@@ -23,19 +23,8 @@ Video denoising is crucial in applications like surveillance, digital cinematogr
 
 ## Repository Structure
 
-- **Notebooks/**: Jupyter notebooks for data preprocessing, model training, and evaluation.
-- **Data/**: Sample datasets and instructions for acquiring larger datasets.
-- **Models/**: Trained model checkpoints and scripts for inference.
-- **Results/**: Visual outputs, performance metrics, and comparative analyses.
-- **README.md**: Project overview, installation guide, and usage instructions.
-- **CONTRIBUTING.md**: Guidelines for contributors.
-- **LICENSE**: Project license details.
+- two branches:main with stable code and experimental with unstable code which utilizes gpu accelaration and aggressive optimization that affects image quality
 
 ## Installation
 
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/video-denoising-project.git
-   cd video-denoising-project
+Completely run on google colab so no version issues with python libraries
