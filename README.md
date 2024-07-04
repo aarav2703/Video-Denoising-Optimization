@@ -8,7 +8,7 @@ Improving existing traditional video denoising methods
 ## Abstract
 
 This project introduces innovative approaches to video denoising, focusing on adaptive techniques without relying on deep learning. We address the balance between noise reduction and detail preservation through spatial, temporal, and DCT-based denoising methods. Our spatial techniques employ adaptive filtering to adjust to video characteristics dynamically, ensuring superior performance across diverse spatial contexts. Temporally, aggressive optimization techniques enhance processing pipelines, particularly beneficial for resource-limited devices. DCT-based denoising prioritizes color preservation through meticulous processing, enhancing visual fidelity and perceptual quality. Experimental evaluations demonstrate the efficacy of our methods in challenging scenarios, including dynamic scenes. Our code is accessible on Google Colab, promoting reproducibility and accessibility.
-Published in IJARSE 2024
+Published in IJARSE 2024-http://ijarse.com/images/fullpdf/1715421667_GU294.pdf
 
 ## Overview
 
@@ -46,4 +46,10 @@ Segmented Processing: This allows for efficient handling of video data on device
 
 ## Installation
 
-Completely run on google colab so no version issues with python libraries
+Completely run on google colab so no version issues with python libraries and it can easily be recreated on any cloud environment
+
+## Videos used for reference:
+Drive link to folder which has videos(original,noisy,pre processed and denoised)-https://drive.google.com/drive/folders/1cDztznmIpzVRsU2UnCS_iwbYWQEyBwW3?usp=sharing
+
+
+To view videos simultaneously I utilized GridPlayer which synchronizes up to four videos playing together which makes bisually comparing denoising methods easier
