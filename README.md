@@ -3,7 +3,7 @@ Improving existing traditional video denoising methods
 
 # Optimizing Video Denoising Methods: Enhancements in Temporal, Spatial and DCT Color Preservation
 
-![Video Denoising](https://example.com/video_denoising_image.jpg)
+
 
 ## Abstract
 
