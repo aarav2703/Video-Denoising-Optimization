@@ -8,6 +8,7 @@ Improving existing traditional video denoising methods
 ## Abstract
 
 This project introduces innovative approaches to video denoising, focusing on adaptive techniques without relying on deep learning. We address the balance between noise reduction and detail preservation through spatial, temporal, and DCT-based denoising methods. Our spatial techniques employ adaptive filtering to adjust to video characteristics dynamically, ensuring superior performance across diverse spatial contexts. Temporally, aggressive optimization techniques enhance processing pipelines, particularly beneficial for resource-limited devices. DCT-based denoising prioritizes color preservation through meticulous processing, enhancing visual fidelity and perceptual quality. Experimental evaluations demonstrate the efficacy of our methods in challenging scenarios, including dynamic scenes. Our code is accessible on Google Colab, promoting reproducibility and accessibility.
+Published in IJARSE 2024
 
 ## Overview
 
