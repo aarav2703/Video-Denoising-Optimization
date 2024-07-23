@@ -25,19 +25,49 @@ Optimizations Over Each Method
 In our research, we have focused on enhancing video denoising by improving upon existing traditional methods, namely spatial filtering, temporal filtering, and transform-domain processing. Our approach involves addressing the weaknesses identified in these methods to achieve superior denoising performance while maintaining computational efficiency and preserving visual fidelity.
 
 Spatial Denoising
+
+
 Adaptive Filtering: We dynamically adjust filter parameters to adapt to the specific characteristics of each video frame. This ensures superior performance across diverse spatial contexts.
+
+
+
 Parallel Processing and Batch Serialization: By leveraging parallelization, we have accelerated the denoising process, enabling real-time or large-scale video processing.
+
+
+
 Segmented Processing: Breaking the video into smaller segments allows for processing on devices with limited RAM, making the method more resource-efficient.
+
+
+
 Histogram Equalization: Pre-processing techniques like histogram equalization were implemented to enhance the effectiveness of spatial denoising.
+
 Temporal Denoising
+
+
 Aggressive Optimization: We implemented aggressive optimization techniques that extend to all facets of the processing pipeline, maximizing performance on resource-limited machines.
+
+
 Motion Compensation: By using motion-compensated temporal filtering, we effectively preserve sharp edges and reduce noise without introducing motion blur.
+
+
 Segmented and Adaptive Filtering: Similar to spatial denoising, segmented processing and adaptive filtering parameters were used to balance noise reduction and temporal fidelity.
+
+
 Parallel Processing and Memory Management: These techniques were applied to further enhance performance, ensuring efficient utilization of resources.
+
+
 DCT-Based Denoising
+
+
 Color Preservation: Our method prioritizes color preservation by meticulously processing individual channels, which enhances visual fidelity and perceptual quality.
+
+
 Adaptive Denoising Parameters: We implemented adaptive denoising parameters to handle different noise profiles effectively.
+
+
 Multithreaded Processing and Buffer Management: These optimizations improve the efficiency and effectiveness of DCT-based denoising, enabling faster and more accurate processing.
+
+
 Segmented Processing: This allows for efficient handling of video data on devices with limited memory, further optimizing resource usage.
 
 ## Repository Structure
